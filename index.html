@@ -7,7 +7,7 @@
 
     <!-- PRIMARY SEO META TAGS (ALL SERVICES & TOP KEYWORDS) -->
     <title>PAN Find | Aadhaar to PAN, RC &amp; DL PDF, Voter, Ration &amp; Digital Services - PANFind.site</title>
-    <meta name="description" content="PAN Find &amp; Digital Service Portal: New PAN Card Apply, Aadhaar to PAN Find, PAN Details, RC &amp; DL PDF Download, Voter ID PDF, AgriStack Farmer Card, Ration Card, Birth Certificate &amp; JSON API.">
+    <meta name="description" content="PAN Find &amp; Find Lost PAN Number by Aadhaar online in seconds. New PAN Card Apply, PAN Details, RC &amp; DL PDF Download, Voter ID PDF, AgriStack Farmer Card, Ration Card, Birth Certificate &amp; JSON API.">
     <meta name="keywords" content="pan find, pan number find, find pan number, new pan card apply nsdl, aadhar to pan, pan details, pan 2 adhar find, rc pdf download, dl pdf download, dl number find, agristack farmer card, voter mobile link, voter pdf no otp, mcd birth pdf, abha card pdf, adhar to ration, ration 2 adhar find, learning license pdf, pan find api, आधार नंबर से पैन नंबर सर्च करें">
     <meta name="author" content="PANFind.site">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -328,11 +328,11 @@
             border-color: var(--primary);
         }
 
-        /* ALL SERVICES GRID */
+        /* ALL SERVICES GRID (CLEAN CARDS WITHOUT OPEN/LIST BUTTONS) */
         .services-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+            gap: 18px;
         }
         .srv-card {
             background: var(--bg-card);
@@ -341,7 +341,7 @@
             padding: 20px;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             transition: 0.2s ease;
         }
         .srv-card:hover {
@@ -368,34 +368,9 @@
             margin-bottom: 4px;
         }
         .srv-sub {
-            font-size: 13px;
+            font-size: 13.5px;
             color: var(--text-muted);
-            margin-bottom: 16px;
         }
-        .srv-actions {
-            display: flex;
-            gap: 8px;
-            margin-top: auto;
-        }
-        .btn-sm {
-            flex: 1;
-            padding: 8px 12px;
-            font-size: 13px;
-            border-radius: 7px;
-            font-weight: 700;
-            text-align: center;
-        }
-        .btn-open {
-            background: var(--primary);
-            color: #ffffff;
-        }
-        .btn-open:hover { background: var(--primary-hover); }
-        .btn-list {
-            background: #f8fafc;
-            color: var(--secondary);
-            border: 1px solid #cbd5e1;
-        }
-        .btn-list:hover { background: #e2e8f0; }
 
         /* API DEVELOPER BANNER */
         .api-banner {
@@ -550,7 +525,7 @@
 
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">All Services (38+)</a></li>
+                <li><a href="#services">All Services</a></li>
                 <li><a href="#api">PAN API</a></li>
                 <li><a href="#guide">PAN Find Guide</a></li>
                 <li><a href="#faq">FAQ</a></li>
@@ -601,7 +576,7 @@
             <div class="container">
                 <div class="section-head">
                     <h2>All Digital &amp; Verification Services</h2>
-                    <p>Select a category or search below to access instant PAN, Transport (RC/DL), Voter, Farmer, Certificate, and Utility services.</p>
+                    <p>Select a category or search below to explore instant PAN, Transport (RC/DL), Voter, Farmer, Certificate, and Utility services.</p>
                 </div>
 
                 <!-- SEARCH & CATEGORY FILTER TABS -->
@@ -618,495 +593,265 @@
                     </div>
                 </div>
 
-                <!-- SERVICES CARDS GRID -->
+                <!-- SERVICES CARDS GRID (CLEAN - NO OPEN/LIST BUTTONS) -->
                 <div class="services-grid" id="servicesGrid">
 
                     <!-- ==================== PAN SERVICES ==================== -->
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>PAN FIND</h3>
-                            <p class="srv-sub">Aadhar to Pan (Instant Lost PAN Search)</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>PAN FIND</h3>
+                        <p class="srv-sub">Aadhar to Pan (Instant Lost PAN Search)</p>
                     </article>
 
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>New Pan Card Apply</h3>
-                            <p class="srv-sub">NSDL Original</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>New Pan Card Apply</h3>
+                        <p class="srv-sub">NSDL Original</p>
                     </article>
 
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>Pan Card Changes Apply</h3>
-                            <p class="srv-sub">NSDL Original Correction / Update</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>Pan Card Changes Apply</h3>
+                        <p class="srv-sub">NSDL Original Correction / Update</p>
                     </article>
 
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>Minor Pan Card Apply</h3>
-                            <p class="srv-sub">NSDL Original Minor Application</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>Minor Pan Card Apply</h3>
+                        <p class="srv-sub">NSDL Original Minor Application</p>
                     </article>
 
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>PAN Details</h3>
-                            <p class="srv-sub">Instant Check &amp; Verification</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>PAN Details</h3>
+                        <p class="srv-sub">Instant Check &amp; Verification</p>
                     </article>
 
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>PAN MANUAL</h3>
-                            <p class="srv-sub">Manual PAN Card PDF Download</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>PAN MANUAL</h3>
+                        <p class="srv-sub">Manual PAN Card PDF Download</p>
                     </article>
 
                     <article class="srv-card" data-cat="pan">
-                        <div>
-                            <span class="srv-badge">PAN Service</span>
-                            <h3>PAN 2 Adhar Find</h3>
-                            <p class="srv-sub">Find Linked Details from PAN</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">PAN Service</span>
+                        <h3>PAN 2 Adhar Find</h3>
+                        <p class="srv-sub">Find Linked Details from PAN</p>
                     </article>
 
                     <!-- ==================== RC & DL TRANSPORT SERVICES ==================== -->
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Vehicle RC</span>
-                            <h3>RC PDF (Server 1)</h3>
-                            <p class="srv-sub">Vehicle Registration Certificate PDF</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Vehicle RC</span>
+                        <h3>RC PDF (Server 1)</h3>
+                        <p class="srv-sub">Vehicle Registration Certificate PDF</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Vehicle RC</span>
-                            <h3>RC PDF (Server 2)</h3>
-                            <p class="srv-sub">Fast Vehicle RC PDF Server</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Vehicle RC</span>
+                        <h3>RC PDF (Server 2)</h3>
+                        <p class="srv-sub">Fast Vehicle RC PDF Server</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Vehicle RC</span>
-                            <h3>RC PDF (Server 3)</h3>
-                            <p class="srv-sub">Alternate Vehicle RC Server</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Vehicle RC</span>
+                        <h3>RC PDF (Server 3)</h3>
+                        <p class="srv-sub">Alternate Vehicle RC Server</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">RC &amp; DL</span>
-                            <h3>RC &amp; DL PDF</h3>
-                            <p class="srv-sub">Instant Download Portal</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">RC &amp; DL</span>
+                        <h3>RC &amp; DL PDF</h3>
+                        <p class="srv-sub">Instant Download Portal</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Vehicle RC</span>
-                            <h3>RC PDF Manual</h3>
-                            <p class="srv-sub">Manual RC Print Service</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Vehicle RC</span>
+                        <h3>RC PDF Manual</h3>
+                        <p class="srv-sub">Manual RC Print Service</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Transport Search</span>
-                            <h3>RC/DL MOBILE NUMBER Find</h3>
-                            <p class="srv-sub">Search Registered Mobile By Vehicle</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Transport Search</span>
+                        <h3>RC/DL MOBILE NUMBER Find</h3>
+                        <p class="srv-sub">Search Registered Mobile By Vehicle</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Driving License</span>
-                            <h3>DL Details</h3>
-                            <p class="srv-sub">Instant Driving License Details</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Driving License</span>
+                        <h3>DL Details</h3>
+                        <p class="srv-sub">Instant Driving License Details</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Driving License</span>
-                            <h3>DL PDF (DL Server 1)</h3>
-                            <p class="srv-sub">Driving License PDF Download</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Driving License</span>
+                        <h3>DL PDF (DL Server 1)</h3>
+                        <p class="srv-sub">Driving License PDF Download</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Driving License</span>
-                            <h3>DL PDF (DL Server 2)</h3>
-                            <p class="srv-sub">Driving License PDF Server 2</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Driving License</span>
+                        <h3>DL PDF (DL Server 2)</h3>
+                        <p class="srv-sub">Driving License PDF Server 2</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Driving License</span>
-                            <h3>DL PDF (DL Server 3)</h3>
-                            <p class="srv-sub">Driving License PDF Server 3</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Driving License</span>
+                        <h3>DL PDF (DL Server 3)</h3>
+                        <p class="srv-sub">Driving License PDF Server 3</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">Driving License</span>
-                            <h3>DL Number Find</h3>
-                            <p class="srv-sub">Instant Search DL Number</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Driving License</span>
+                        <h3>DL Number Find</h3>
+                        <p class="srv-sub">Instant Search DL Number</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">RTO Service</span>
-                            <h3>LL EXAM</h3>
-                            <p class="srv-sub">Learner License Exam Apply</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">RTO Service</span>
+                        <h3>LL EXAM</h3>
+                        <p class="srv-sub">Learner License Exam Apply</p>
                     </article>
 
                     <article class="srv-card" data-cat="transport">
-                        <div>
-                            <span class="srv-badge">RTO Service</span>
-                            <h3>LEARNING LICENSE</h3>
-                            <p class="srv-sub">Learning License PDF Download</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">RTO Service</span>
+                        <h3>LEARNING LICENSE</h3>
+                        <p class="srv-sub">Learning License PDF Download</p>
                     </article>
 
                     <!-- ==================== VOTER ID SERVICES ==================== -->
                     <article class="srv-card" data-cat="voter">
-                        <div>
-                            <span class="srv-badge">Voter Service</span>
-                            <h3>Voter Mobile Link</h3>
-                            <p class="srv-sub">Instant Mobile Link Service</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Voter Service</span>
+                        <h3>Voter Mobile Link</h3>
+                        <p class="srv-sub">Instant Mobile Link Service</p>
                     </article>
 
                     <article class="srv-card" data-cat="voter">
-                        <div>
-                            <span class="srv-badge">Voter Service</span>
-                            <h3>Voter Mobile Link (No OTP)</h3>
-                            <p class="srv-sub">No OTP, No E-Sign Link</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Voter Service</span>
+                        <h3>Voter Mobile Link (No OTP)</h3>
+                        <p class="srv-sub">No OTP, No E-Sign Link</p>
                     </article>
 
                     <article class="srv-card" data-cat="voter">
-                        <div>
-                            <span class="srv-badge">Voter Service</span>
-                            <h3>Voter INFO</h3>
-                            <p class="srv-sub">EPIC &amp; Voter Details Check</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Voter Service</span>
+                        <h3>Voter INFO</h3>
+                        <p class="srv-sub">EPIC &amp; Voter Details Check</p>
                     </article>
 
                     <article class="srv-card" data-cat="voter">
-                        <div>
-                            <span class="srv-badge">Voter Service</span>
-                            <h3>VOTER MANUAL</h3>
-                            <p class="srv-sub">Manual Voter Card PDF Download</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Voter Service</span>
+                        <h3>VOTER MANUAL</h3>
+                        <p class="srv-sub">Manual Voter Card PDF Download</p>
                     </article>
 
                     <article class="srv-card" data-cat="voter">
-                        <div>
-                            <span class="srv-badge">Voter Service</span>
-                            <h3>Voter PDF No Otp</h3>
-                            <p class="srv-sub">Request Voter PDF Without OTP</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Voter Service</span>
+                        <h3>Voter PDF No Otp</h3>
+                        <p class="srv-sub">Request Voter PDF Without OTP</p>
                     </article>
 
                     <article class="srv-card" data-cat="voter">
-                        <div>
-                            <span class="srv-badge">Voter Service</span>
-                            <h3>Voter Link No Otp</h3>
-                            <p class="srv-sub">Request Mobile Link Without OTP</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Voter Service</span>
+                        <h3>Voter Link No Otp</h3>
+                        <p class="srv-sub">Request Mobile Link Without OTP</p>
                     </article>
 
                     <!-- ==================== FARMER & RATION SERVICES ==================== -->
                     <article class="srv-card" data-cat="farmer">
-                        <div>
-                            <span class="srv-badge">Farmer Card</span>
-                            <h3>AGRI FARMER CARD</h3>
-                            <p class="srv-sub">Manual Farmer ID Card PDF</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Farmer Card</span>
+                        <h3>AGRI FARMER CARD</h3>
+                        <p class="srv-sub">Manual Farmer ID Card PDF</p>
                     </article>
 
                     <article class="srv-card" data-cat="farmer">
-                        <div>
-                            <span class="srv-badge">Farmer Card</span>
-                            <h3>AgriStack Farmer Card</h3>
-                            <p class="srv-sub">Auto PDF Generation</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Farmer Card</span>
+                        <h3>AgriStack Farmer Card</h3>
+                        <p class="srv-sub">Auto PDF Generation</p>
                     </article>
 
                     <article class="srv-card" data-cat="farmer">
-                        <div>
-                            <span class="srv-badge">Ration Card</span>
-                            <h3>Adhar To Ration</h3>
-                            <p class="srv-sub">All State Ration Card Search</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Ration Card</span>
+                        <h3>Adhar To Ration</h3>
+                        <p class="srv-sub">All State Ration Card Search</p>
                     </article>
 
                     <article class="srv-card" data-cat="farmer">
-                        <div>
-                            <span class="srv-badge">Ration Card</span>
-                            <h3>Ration 2 Adhar Find</h3>
-                            <p class="srv-sub">All State Ration Number Lookup</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Ration Card</span>
+                        <h3>Ration 2 Adhar Find</h3>
+                        <p class="srv-sub">All State Ration Number Lookup</p>
                     </article>
 
                     <!-- ==================== CERTIFICATES & HEALTH IDs ==================== -->
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Identity Card</span>
-                            <h3>ADHAR MANUAL</h3>
-                            <p class="srv-sub">New Print &amp; Formatting</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Identity Card</span>
+                        <h3>ADHAR MANUAL</h3>
+                        <p class="srv-sub">New Print &amp; Formatting</p>
                     </article>
 
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Health ID</span>
-                            <h3>ABHA CARD PDF</h3>
-                            <p class="srv-sub">Ayushman Bharat Abha Card Download</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Health ID</span>
+                        <h3>ABHA CARD PDF</h3>
+                        <p class="srv-sub">Ayushman Bharat Abha Card Download</p>
                     </article>
 
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Certificate</span>
-                            <h3>Gazette Certificate</h3>
-                            <p class="srv-sub">Manual Gazette Print</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Certificate</span>
+                        <h3>Gazette Certificate</h3>
+                        <p class="srv-sub">Manual Gazette Print</p>
                     </article>
 
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Birth Certificate</span>
-                            <h3>MCD BIRTH PDF</h3>
-                            <p class="srv-sub">Instant Birth Certificate Download</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Birth Certificate</span>
+                        <h3>MCD BIRTH PDF</h3>
+                        <p class="srv-sub">Instant Birth Certificate Download</p>
                     </article>
 
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Birth Certificate</span>
-                            <h3>Gujrat Birth Manual</h3>
-                            <p class="srv-sub">Gujarat Birth Certificate Print</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Birth Certificate</span>
+                        <h3>Gujrat Birth Manual</h3>
+                        <p class="srv-sub">Gujarat Birth Certificate Print</p>
                     </article>
 
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Birth Certificate</span>
-                            <h3>CHENNAI Birth</h3>
-                            <p class="srv-sub">Manual Birth Certificate Print</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Birth Certificate</span>
+                        <h3>CHENNAI Birth</h3>
+                        <p class="srv-sub">Manual Birth Certificate Print</p>
                     </article>
 
                     <article class="srv-card" data-cat="cert">
-                        <div>
-                            <span class="srv-badge">Certificate</span>
-                            <h3>DOMICILE Manual</h3>
-                            <p class="srv-sub">All State Domicile Print</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Certificate</span>
+                        <h3>DOMICILE Manual</h3>
+                        <p class="srv-sub">All State Domicile Print</p>
                     </article>
 
                     <!-- ==================== BANK, GST & UTILITY TOOLS ==================== -->
                     <article class="srv-card" data-cat="utility">
-                        <div>
-                            <span class="srv-badge">Business Tax</span>
-                            <h3>GST Details</h3>
-                            <p class="srv-sub">Check GSTIN Status &amp; Filing Info</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Business Tax</span>
+                        <h3>GST Details</h3>
+                        <p class="srv-sub">Check GSTIN Status &amp; Filing Info</p>
                     </article>
 
                     <article class="srv-card" data-cat="utility">
-                        <div>
-                            <span class="srv-badge">Telecom Info</span>
-                            <h3>MOBILE Details</h3>
-                            <p class="srv-sub">Operator &amp; Number Info Lookup</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Telecom Info</span>
+                        <h3>MOBILE Details</h3>
+                        <p class="srv-sub">Operator &amp; Number Info Lookup</p>
                     </article>
 
                     <article class="srv-card" data-cat="utility">
-                        <div>
-                            <span class="srv-badge">Banking Tool</span>
-                            <h3>BANK PASSBOOK</h3>
-                            <p class="srv-sub">Bank Passbook Format Print</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-list">List</a>
-                        </div>
+                        <span class="srv-badge">Banking Tool</span>
+                        <h3>BANK PASSBOOK</h3>
+                        <p class="srv-sub">Bank Passbook Format Print</p>
                     </article>
 
                     <article class="srv-card" data-cat="utility">
-                        <div>
-                            <span class="srv-badge">Banking Tool</span>
-                            <h3>IFSC DETAILS</h3>
-                            <p class="srv-sub">Bank Branch &amp; IFSC Code Finder</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Banking Tool</span>
+                        <h3>IFSC DETAILS</h3>
+                        <p class="srv-sub">Bank Branch &amp; IFSC Code Finder</p>
                     </article>
 
                     <article class="srv-card" data-cat="utility">
-                        <div>
-                            <span class="srv-badge">Postal Tool</span>
-                            <h3>PINCODE Details</h3>
-                            <p class="srv-sub">Post Office &amp; District Pincode Search</p>
-                        </div>
-                        <div class="srv-actions">
-                            <a href="https://panfind.site/login.php" class="btn-sm btn-open">Open</a>
-                        </div>
+                        <span class="srv-badge">Postal Tool</span>
+                        <h3>PINCODE Details</h3>
+                        <p class="srv-sub">Post Office &amp; District Pincode Search</p>
                     </article>
 
                 </div>
@@ -1264,7 +1009,7 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#services">All Services (38+)</a></li>
+                        <li><a href="#services">All Services</a></li>
                         <li><a href="#api">PAN Find API</a></li>
                         <li><a href="#guide">PAN Recovery Guide</a></li>
                         <li><a href="#faq">FAQ</a></li>
